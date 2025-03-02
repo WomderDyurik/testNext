@@ -1,0 +1,51 @@
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.completed {
+    background: #f5f5f5;
+    text-decoration: line-through;
+}
+
+.title {
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+.button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.deleteButton {
+    background: #ff4444;
+    color: white;
+}
+
+.completeButton {
+    background: #4CAF50;
+    color: white;
+}

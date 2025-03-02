@@ -1,0 +1,41 @@
+.container {
+    padding: 1rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .userGrid {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .userCard {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  
+  .userCard:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .userName {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .userRole {
+    font-size: 16px;
+    color: #16a34a;
+  }
+  
+  .adminRole {
+    font-size: 16px;
+    color: #dc2626;
+  }
+  

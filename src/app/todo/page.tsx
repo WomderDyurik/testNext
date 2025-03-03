@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Todo, TodoStatus, NewTodo } from './types/todo';
+import { Todo, TodoStatus } from './types/todo';
 import TodoItem from './components/Todoitem';
 import styles from './styles/ToDo.module.css';
 
